@@ -17,6 +17,10 @@ header {
   width: 1256px;
 }
 
+.header-img {
+  cursor: pointer;
+}
+
 .header-nav ul {
   display: flex;
   list-style-type: none;
@@ -223,12 +227,9 @@ header {
   bottom: -13px;
 }
 
-
-
-
-
-
-
+.quarter-circle5 {
+  bottom: 8px;
+}
 
 .main-section4 {
   display: flex;
@@ -258,4 +259,8 @@ header {
   color: #001E41;
   line-height: 18.2px;
   margin-left: 25px;
+}
+
+.hidden {
+  display: none;
 }
