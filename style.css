@@ -79,6 +79,7 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  margin-top: -15px;
 }
 
 .content-main-1 p:nth-child(3) {
@@ -87,6 +88,7 @@ header {
   font-size: 14px;
   color: #909090;
   line-height: 21px;
+  margin-top: -5px;
 }
 
 .content-main-1 button {
@@ -101,3 +103,44 @@ header {
   border-color: #5D78FF;
   cursor: pointer;
 }
+
+.main-section2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1256px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.main-section2 h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: #001E41;
+}
+
+.main-section2 h2 span {
+  color: #909090;
+}
+
+.controls {
+  height: 28px;
+  width: 64px;
+  display: flex;
+  justify-content: space-around;
+} 
+
+.controls button {
+  border-radius: 50%;
+  color: #FFFFFF;
+  background-color: #5D78FF;
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+
+  border: 2px solid #5D78FF;
+  outline: none;
+}
+
+
