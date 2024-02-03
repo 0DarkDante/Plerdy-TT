@@ -143,4 +143,39 @@ header {
   outline: none;
 }
 
+/* Слайдер */
 
+.slaid {
+  width: 302px;
+  height: 372px;
+  border-radius: 10px;
+  background-color:#F8F8FA;
+}
+
+.quarter-circle {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: conic-gradient(
+    #3498db 0deg 0deg, /* Колір та кут для першої половини */
+    transparent 0deg 0deg, /* Прозорість для другої половини */
+    transparent 0deg 270deg, /* Прозорість для третьої половини */
+    #3498db 0deg 0deg /* Колір та кут для четвертої половини */
+  );
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.main-section4 {
+  height: 1000px;
+}
