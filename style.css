@@ -2,13 +2,19 @@ body {
   margin: 0;
 }
 
+.stripe {
+  width: 100%;
+  height: 1.5px;
+  background-color: #E5E5E5; 
+  margin-bottom: 40px;
+}
 
 header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border-bottom: 2px solid #E5E5E5;
-  margin-bottom: 40px;
+  margin: 0 auto;
+  width: 1256px;
 }
 
 .header-nav ul {
@@ -138,7 +144,7 @@ header {
   cursor: pointer;
   width: 28px;
   height: 28px;
-
+  padding-bottom: 4px;
   border: 2px solid #5D78FF;
   outline: none;
 }
@@ -147,7 +153,7 @@ header {
 
 .slaider {
   width: 1256px;
-  margin-left: 131.6px;
+  margin: 0px auto;
   position: relative;
   display: flex;
 }
@@ -158,6 +164,7 @@ header {
   border-radius: 10px;
   background-color:#F8F8FA;
   overflow: hidden;
+  margin-right: 20px;
 }
 
 .quarter-circle {
@@ -196,12 +203,24 @@ header {
   font-weight: 900;
   font-size: 48px;
   line-height: 21px;
-  color: #000000;
+  color: #FFFFFF;
   width: 92px;
   height: 91px;
   margin: 0px;
   padding-top: 58px;
   padding-left: 58px;
+}
+
+.quarter-circle2 {
+  bottom: -13px;
+}
+
+.quarter-circle3 {
+  bottom: 7px;
+}
+
+.quarter-circle4 {
+  bottom: -13px;
 }
 
 
@@ -211,7 +230,32 @@ header {
 
 
 
-
 .main-section4 {
-  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.main-section4 button {
+  width: 259px;
+  height: 40px;
+  font-family: Source Sans Pro;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+  border-radius: 8px;
+  background-color: #5D78FF;
+  border-color: #5D78FF;
+  cursor: pointer;
+}
+
+.main-section4 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #001E41;
+  line-height: 18.2px;
+  margin-left: 25px;
 }
