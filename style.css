@@ -149,6 +149,7 @@ header {
   width: 1256px;
   margin-left: 131.6px;
   position: relative;
+  display: flex;
 }
 
 .slaid {
@@ -190,8 +191,7 @@ header {
   margin: 22px auto 0 auto;
 }
 
-.slaid p:nth-child(4) {
-  position: absolute;
+.cart-number {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 48px;
@@ -200,10 +200,9 @@ header {
   width: 92px;
   height: 91px;
   margin: 0px;
-  bottom: -28px;
-  left: 239px;
+  padding-top: 58px;
+  padding-left: 58px;
 }
-
 
 
 
