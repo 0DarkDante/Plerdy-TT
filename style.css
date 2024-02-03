@@ -7,6 +7,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  border-bottom: 2px solid #E5E5E5;
+  margin-bottom: 40px;
 }
 
 .header-nav ul {
@@ -42,4 +44,60 @@ header {
   border-radius: 8px;
   background-color: #5D78FF;
   border-color: #5D78FF;
+  cursor: pointer;
+}
+
+/*main*/
+
+.main-img {
+  background-image: url(IMG/Frame.png);
+  width: 1256px;
+  height: 530px;
+  background-size: cover; 
+  background-position: center center;
+  margin: 0 auto; 
+}
+
+.content-main-1 {
+  width: 665px;
+  height: 312px;
+  padding-left: 50px;
+  padding-top: 50px;
+} 
+
+.content-main-1 h1 {
+  width: 611px;
+  height: 96px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.content-main-1 p:nth-child(2) {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.content-main-1 p:nth-child(3) {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #909090;
+  line-height: 21px;
+}
+
+.content-main-1 button {
+  width: 183px;
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+  border-radius: 8px;
+  background-color: #5D78FF;
+  border-color: #5D78FF;
+  cursor: pointer;
 }
