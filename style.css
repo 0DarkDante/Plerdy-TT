@@ -145,27 +145,59 @@ header {
 
 /* Слайдер */
 
+.slaider {
+  width: 1256px;
+  margin-left: 131.6px;
+  position: relative;
+}
+
 .slaid {
   width: 302px;
   height: 372px;
   border-radius: 10px;
   background-color:#F8F8FA;
+  overflow: hidden;
 }
 
 .quarter-circle {
-  position: relative;
-  width: 100px;
-  height: 100px;
+  position: absolute;
+  width: 219px;
+  height: 219px;
   background: conic-gradient(
-    #3498db 0deg 0deg, /* Колір та кут для першої половини */
-    transparent 0deg 0deg, /* Прозорість для другої половини */
-    transparent 0deg 270deg, /* Прозорість для третьої половини */
-    #3498db 0deg 0deg /* Колір та кут для четвертої половини */
+    #E3EEFF 0deg 0deg, 
+    transparent 1deg 0deg, 
+    transparent 0deg 270deg, 
+    #E3EEFF 0deg 0deg 
   );
   border-radius: 50%;
+  bottom: -109px;
+  left: 191px;
+  overflow: hidden;
 }
 
+.slaid h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #001E41;
+  line-height: 24px;
+}
 
+.slaid p:nth-child(2) {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #001E41;
+}
+
+.slaid p:nth-child(4) {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
 
 
 
