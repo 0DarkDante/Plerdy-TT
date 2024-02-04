@@ -327,7 +327,7 @@ header {
   font-size: 14px;
   line-height: 21px;
   color: #001E41;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .inps-alert {
@@ -394,10 +394,50 @@ header {
 
 .checkbox-alert {
   display: flex;
+  color: #909090;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  margin-left: -20px;
 }
 
-.Frame29 {
+.checkbox-alert span {
+  color: #5D78FF;
+}
+
+.checkbox-alert input[type="checkbox"] {
+  border: 1px solid #D5D5D6; 
+  appearance: none; 
+  -webkit-appearance: none;
+  width: 13px;
+  height: 13px;
+  border-radius: 4px;
+  margin: 9px 10px 0 0px;
+}
+
+.checkbox-alert input[type="checkbox"]:checked {
+  background-color: #3498db; 
+  border-color: #3498db; 
+}
+
+
+.frame29-alert {
+  display: flex;
   margin: 0;
-  width: 138px;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.frame29-alert img{
+  width: 30px;
   height: 19px;
+}
+
+.frame29-alert p {
+  color: #BDBDBD;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-bottom: 8px;
 }
