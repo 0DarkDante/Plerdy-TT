@@ -44,7 +44,7 @@
           Thus, you'll compile a list of flaws in your website interface, navigation, and conversion path that can <br> eventually affect its micro and macro conversion rates.
         </p>
         
-        <button type="button">
+        <button type="button" onclick="showCustomAlert()">
           Run the Plerdy tool
         </button>
       </div>
@@ -131,6 +131,43 @@
     </section>
 
   </main>
+
+
+  <!-- Елемент алерту -->
+  <div id="customAlert" class="custom-alert">
+    <div class="container-alert">
+
+      <div class="left-block-alert">
+        <img src="IMG/Pic.png" alt="pic">
+      </div>
+
+      <div class="right-block-alert">
+        <button class="custom-alert-btn" onclick="closeCustomAlert()">&#10006;</button>
+        <h1>How to do a <br> Website Audit to <br> Improve SEO & <br> Conversions</h1>
+        <p>You will get an SMS with a link to the webinar</p>
+        
+        <div class="inps-alert">
+          <label for="input1">Name</label>
+          <input type="text" id="input1" name="input1" placeholder="Boris Johnson">
+
+          <label for="input2">Lable</label>
+          <input type="text" id="input2" name="input2" placeholder="XX XXX XXXX">
+        </div>
+
+        <div class="buttons-alert">
+          <button type="button">Support</button>
+          <button type="button">Contact sales</button>
+        </div>
+
+        <div class="checkbox-alert">
+          <input type="checkbox" id="myCheckbox" name="myCheckbox">
+          <label for="myCheckbox">By sending up? you agree to our Conditions and <br> Privacy Policy</label>
+        </div>
+
+        <img src="IMG/Frame 29.png" alt="Frame29" class="Frame29">
+      </div>
+    </div>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>

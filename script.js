@@ -32,8 +32,8 @@ document.addEventListener("DOMContentLoaded", function () {
     updateSlider();
   }
 
-  const prevButton = document.getElementById("button1");
-  const nextButton = document.getElementById("button2");
+  let prevButton = document.getElementById("button1");
+  let nextButton = document.getElementById("button2");
 
   prevButton.addEventListener("click", function () {
     navigateSlides(-1);
@@ -45,3 +45,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
   updateSlider();
 });
+
+
+// alert 
+function showCustomAlert() {
+  var customAlert = document.getElementById("customAlert");
+  customAlert.style.display = "block";
+}
+
+// Функція для закриття алерту
+function closeCustomAlert() {
+  var customAlert = document.getElementById("customAlert");
+  customAlert.style.display = "none";
+}
