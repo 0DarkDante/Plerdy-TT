@@ -28,15 +28,6 @@
     border-radius: 10px;
   }
 
-  .slaider {
-    
-  }
-
-
-
-  
-
-
   .main-section4 {
     flex-direction: column;
     width: 340px;
@@ -117,8 +108,6 @@
     width: 270px;
   }
 
-
-
   .slider-wrapper {
     display: flex;
     justify-content: center;
@@ -137,6 +126,30 @@
   
   .active-dot {
     background-color: #5D78FF; 
+  }
+
+  .custom-alert {
+    width: 300px;
+    height: 413px;
+  }
+
+  .left-block-alert {
+    display: none;
+  }
+
+  .right-block-alert h1 {
+    font-size: 18px;
+    line-height: 21.6px;
+    width: 237px;
+    height: 66px;
+  }
+
+  .right-block-alert p {
+    font-size: 12px;
+    line-height: 18px;
+    width: 237px;
+    height: 36px;
+    text-align: center;
   }
 }
 
