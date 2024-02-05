@@ -22,15 +22,20 @@
   .main-img {
     width: 90%;
     max-width: 340px; 
-    height: 100vh;
+    height: 103vh;
     background-color: #E2F2FF;
     background-image: none;
     border-radius: 10px;
   }
 
   .slaider {
-    display: none;
+    
   }
+
+
+
+  
+
 
   .main-section4 {
     flex-direction: column;
@@ -43,6 +48,7 @@
     font-size: 12px;
     width: 340px;
     text-align: center;
+    margin: 15px 0 0 0;
   }
 
   .controls {
@@ -96,6 +102,42 @@
     align-items: center;
   }
 
+  .adaptive-img {
+    display: flex;
+    margin: 10px;
+  }
+
+  .block-img-adapt p {
+    font-size: 12px;
+    line-height: 14.06px;
+    color: #001E41;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin: 10px auto;
+    width: 270px;
+  }
+
+
+
+  .slider-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .slider-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ddd; 
+    margin: 0 5px; 
+    cursor: pointer;
+  }
+  
+  .active-dot {
+    background-color: #5D78FF; 
+  }
 }
 
 

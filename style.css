@@ -479,3 +479,10 @@ header {
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
+.adaptive-img {
+  display: none;
+}
+
+.slider-wrapper {
+  display: none;
+}
