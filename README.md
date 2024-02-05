@@ -1,5 +1,7 @@
 # Plerdy
 
+Link https://0darkdante.github.io/Plerdy-TT/
+
 ## Site structure
 
 Header: Contains the logo, navigation menu, "Sign In" and "Contact Sales" buttons, as well as a burger menu for adaptability.
@@ -16,4 +18,4 @@ Main Section 4: Title, button and description.
 
 Custom Alert Section: A modal window with an image, title, description, input fields, and buttons (when the Run the Plerdy tool button is clicked).
 
-## Thank you very much for such an interesting task.
+## Thank you very much for such an interesting task. Kulinich Vadym.
