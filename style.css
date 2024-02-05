@@ -260,6 +260,7 @@ header {
   color: #001E41;
   line-height: 18.2px;
   margin-left: 25px;
+  width: 440px;
 }
 
 .hidden {
@@ -441,3 +442,40 @@ header {
   margin-left: 10px;
   margin-bottom: 8px;
 }
+
+.buttons-alert button[disabled] {
+  background-color: #AED1FF; 
+  border: 1px solid #AED1FF;
+}
+
+
+.burger-menu {
+  display: none;
+}
+
+.burger-icon {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  margin: 6px 0;
+}
+
+/* Стилі для бургер-меню, коли воно відкрите */
+.burger-menu.open .burger-icon .bar:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.burger-menu.open .burger-icon .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-menu.open .burger-icon .bar:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+

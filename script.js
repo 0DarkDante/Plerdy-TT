@@ -53,8 +53,41 @@ function showCustomAlert() {
   customAlert.style.display = "block";
 }
 
-// Функція для закриття алерту
 function closeCustomAlert() {
   var customAlert = document.getElementById("customAlert");
   customAlert.style.display = "none";
+}
+
+
+// Функціонал для активної кнопки
+
+function checkInputs() {
+  var input1Value = document.getElementById('input1').value.trim();
+
+  var supportBtn = document.getElementById('supportBtn');
+
+  if (input1Value !== '') {
+      supportBtn.removeAttribute('disabled');
+  } else {
+      supportBtn.setAttribute('disabled', 'true');
+  }
+}
+
+
+// Функція для зміни стану бургер-меню
+let menuOpen = false;
+
+// Функція для зміни стану бургер-меню
+function toggleMenu() {
+    const burgerMenu = document.querySelector('.burger-menu');
+    const headerNav = document.querySelector('.header-nav');
+    menuOpen = !menuOpen;
+
+    if (menuOpen) {
+        burgerMenu.classList.add('open');
+        headerNav.style.display = 'block';
+    } else {
+        burgerMenu.classList.remove('open');
+        headerNav.style.display = 'none';
+    }
 }
